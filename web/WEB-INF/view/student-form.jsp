@@ -32,6 +32,12 @@
         Ruby <form:radiobutton path="favoriteLanguage" value="Ruby"/>
         Python <form:radiobutton path="favoriteLanguage" value="Python"/>
         <hr>
+        Operating systems:
+        Linux <form:checkbox path="operatingSystems" value="Linux"/>
+        Windows <form:checkbox path="operatingSystems" value="Windows"/>
+        Mac <form:checkbox path="operatingSystems" value="Mac"/>
+        Android <form:checkbox path="operatingSystems" value="Android"/>
+        <hr>
         <input type="submit" value="Submit"/>
     </form:form>
 </body>
