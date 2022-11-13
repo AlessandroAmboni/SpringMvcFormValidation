@@ -19,11 +19,18 @@
         <hr>
         Country:
         <form:select path="country">
-            <form:option value="Brazil" label="Brazil"/>
-            <form:option value="France" label="France"/>
-            <form:option value="Germany" label="Germany"/>
-
+<%--            <form:option value="Brazil" label="Brazil"/>--%>
+<%--            <form:option value="France" label="France"/>--%>
+<%--            <form:option value="Germany" label="Germany"/>--%>
+                <form:options items="${student.countryOptions}"/>
         </form:select>
+        <hr>
+        Favorite languages:
+        Java <form:radiobutton path="favoriteLanguage" value="Java"/>
+        C# <form:radiobutton path="favoriteLanguage" value="C#"/>
+        Php <form:radiobutton path="favoriteLanguage" value="Php"/>
+        Ruby <form:radiobutton path="favoriteLanguage" value="Ruby"/>
+        Python <form:radiobutton path="favoriteLanguage" value="Python"/>
         <hr>
         <input type="submit" value="Submit"/>
     </form:form>
