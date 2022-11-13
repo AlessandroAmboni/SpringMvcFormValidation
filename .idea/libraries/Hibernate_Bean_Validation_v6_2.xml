@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Hibernate Bean Validation v6.2" type="BeanValidation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Jars/Hibernate/hibernate-validator-6.2.4.Final-dist/hibernate-validator-6.2.4.Final/dist/hibernate-validator-annotation-processor-6.2.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Jars/Hibernate/hibernate-validator-6.2.4.Final-dist/hibernate-validator-6.2.4.Final/dist/lib/required/jakarta.validation-api-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Jars/Hibernate/hibernate-validator-6.2.4.Final-dist/hibernate-validator-6.2.4.Final/dist/lib/required/jboss-logging-3.4.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Jars/Hibernate/hibernate-validator-6.2.4.Final-dist/hibernate-validator-6.2.4.Final/dist/hibernate-validator-6.2.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Jars/Hibernate/hibernate-validator-6.2.4.Final-dist/hibernate-validator-6.2.4.Final/dist/hibernate-validator-cdi-6.2.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Jars/Hibernate/hibernate-validator-6.2.4.Final-dist/hibernate-validator-6.2.4.Final/dist/lib/required/jakarta.el-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Jars/Hibernate/hibernate-validator-6.2.4.Final-dist/hibernate-validator-6.2.4.Final/dist/lib/required/classmate-1.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

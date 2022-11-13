@@ -11,6 +11,8 @@
           <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
           <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
           <element id="library" level="project" name="javax.servlet.jstl" />
+          <element id="library" level="project" name="" />
+          <element id="library" level="project" name="Hibernate Bean Validation v6.2" />
         </element>
       </element>
     </root>

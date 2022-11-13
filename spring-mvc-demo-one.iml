@@ -26,5 +26,6 @@
     <orderEntry type="library" exported="" name="Spring MVC-5.2.3.RELEASE" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 9.0.68" level="application_server_libraries" />
     <orderEntry type="library" exported="" name="javax.servlet.jstl" level="project" />
+    <orderEntry type="library" exported="" name="Hibernate Bean Validation v6.2" level="project" />
   </component>
 </module>
