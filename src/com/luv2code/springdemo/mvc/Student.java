@@ -16,6 +16,8 @@ public class Student {
         countryOptions.put("FR", "France");
         countryOptions.put("DE", "Germany");
         countryOptions.put("IN", "India");
+        countryOptions.put("US", "United States of America");
+
     }
 
     public LinkedHashMap<String, String> getCountryOptions() {
