@@ -12,9 +12,10 @@
     <title>Costumer Confirmation</title>
 </head>
 <body>
-The client is confirmed:
-${client.name}
-${client.disponibility}
-${client.problem}
+The client is confirmed: <br>
+Client: ${client.name} <br>
+Disponibility: ${client.disponibility} <br>
+Problem: ${client.problem} <br>
+TX value: ${client.txValue} <br>
 </body>
 </html>

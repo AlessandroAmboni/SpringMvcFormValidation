@@ -29,6 +29,10 @@
     Problem: (*) <form:input path="problem"/>
     <form:errors path="problem" cssClass="error"/>
     <br>
+    <hr>
+    Tx Value: <form:input path="txValue"/>
+    <form:errors path="txValue" cssClass="error"/>
+    <br>
     <input type="submit" value="Submit"/>
   </form:form>
 </body>
