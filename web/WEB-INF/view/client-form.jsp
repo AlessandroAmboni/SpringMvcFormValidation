@@ -12,28 +12,37 @@
 <html>
 <head>
     <title>Title</title>
-  <style>
-    .error {
-      color: red;
-    }
-  </style>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-  <form:form action="processForm" modelAttribute="client">
+<form:form action="processForm" modelAttribute="client">
     First name: <form:input path="name"/>
     <form:errors path="name" cssClass="error"/>
     <hr>
+
+    Phone number: <form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber" cssClass="error"/>
+
     Disponibility: <form:input path="disponibility"/>
     <form:errors path="disponibility" cssClass="error"/>
+
     <hr>
+
     Problem: (*) <form:input path="problem"/>
     <form:errors path="problem" cssClass="error"/>
+
     <br>
     <hr>
+
     Tx Value: <form:input path="txValue"/>
     <form:errors path="txValue" cssClass="error"/>
+
     <br>
     <input type="submit" value="Submit"/>
-  </form:form>
+</form:form>
 </body>
 </html>

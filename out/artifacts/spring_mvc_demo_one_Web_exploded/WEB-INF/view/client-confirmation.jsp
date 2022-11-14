@@ -14,6 +14,7 @@
 <body>
 The client is confirmed: <br>
 Client: ${client.name} <br>
+Phone Number: ${client.phoneNumber} <br>
 Disponibility: ${client.disponibility} <br>
 Problem: ${client.problem} <br>
 TX value: ${client.txValue} <br>
